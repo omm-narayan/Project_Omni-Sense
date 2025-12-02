@@ -8,7 +8,7 @@
 #define I2S_SD  32
 
 // Adjustable Parameters
-float sensitivity = 0.7;      // Lower = less sensitivity
+float sensitivity = 0.2;      // Lower = less sensitivity
 int noiseGate = 50;            // Ignore anything below this amplitude
 float smooth1 = 0.04;          // First smoothing filter
 float smooth2 = 0.03;          // Second smoothing filter
