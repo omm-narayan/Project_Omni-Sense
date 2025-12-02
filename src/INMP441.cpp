@@ -3,12 +3,12 @@
 #include <driver/i2s.h>
 
 // Pins
-#define I2S_WS  15
+#define I2S_WS  13
 #define I2S_SCK 14
 #define I2S_SD  32
 
 // Adjustable Parameters
-float sensitivity = 0.07;      // Lower = less sensitivity
+float sensitivity = 0.7;      // Lower = less sensitivity
 int noiseGate = 50;            // Ignore anything below this amplitude
 float smooth1 = 0.04;          // First smoothing filter
 float smooth2 = 0.03;          // Second smoothing filter
