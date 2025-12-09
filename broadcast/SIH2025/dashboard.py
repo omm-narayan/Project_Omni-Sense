@@ -53,6 +53,7 @@ def read_serial():
                 # keep last 50 points
                 co2_values = co2_values[-50:]
                 presence_values = presence_values[-50:]
+            
         except:
             pass
 
