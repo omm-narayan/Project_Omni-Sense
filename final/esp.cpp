@@ -16,6 +16,7 @@ unsigned long lastChange = 0;
 bool lastState = LOW;
 unsigned long lastPulseWidth = 0;
 
+
 // Distance calibration (microseconds -> meters)
 const unsigned long MIN_PW = 5000UL;      // µs for closest
 const unsigned long MAX_PW = 200000UL;    // µs for farthest (~6m)
